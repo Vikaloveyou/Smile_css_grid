@@ -1,0 +1,233 @@
+.smile {
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: (15, 20px);
+  grid-template-rows: (15, 20px);
+  width: 600px;
+  height: 600px;
+}
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.white {
+  background-color: white;
+}
+
+/* ---- Black elements ---- */
+
+.el1 {
+  grid-row: 1/2;
+  grid-column: 6/11;
+}
+
+.el2 {
+  grid-row: 2/3;
+  grid-column: 4/6;
+}
+
+.el3 {
+  grid-row: 2/3;
+  grid-column: 11/13;
+}
+
+.el4 {
+  grid-row: 3/4;
+  grid-column: 3/4;
+}
+
+.el5 {
+  grid-row: 3/4;
+  grid-column: 13/14;
+}
+
+.el5 {
+  grid-row: 3/4;
+  grid-column: 13/14;
+}
+
+.el6 {
+  grid-row: 4/6;
+  grid-column: 2/3;
+}
+
+.el7 {
+  grid-row: 4/6;
+  grid-column: 14/15;
+}
+
+.el8 {
+  grid-row: 6/7;
+  grid-column: 1 / span 15;
+}
+
+.el9 {
+  grid-row: 7/11;
+  grid-column: 1/2;
+}
+
+.el10 {
+  grid-row: 7/11;
+  grid-column: 15/16;
+}
+
+.el11 {
+  grid-area: 7/3/9/14;
+}
+
+.el12 {
+  grid-row: 9/10;
+  grid-column: 4/7;
+}
+
+.el13 {
+  grid-row: 9/10;
+  grid-column: 10/13;
+}
+
+.el14 {
+  grid-row: 11/13;
+  grid-column: 2/3;
+}
+
+.el15 {
+  grid-row: 11/13;
+  grid-column: 14/15;
+}
+
+.el16 {
+  grid-row: 13/14;
+  grid-column: 3/4;
+}
+
+.el17 {
+  grid-row: 13/14;
+  grid-column: 13/14;
+}
+
+.el18 {
+  grid-row: 14/15;
+  grid-column: 4/6;
+}
+
+.el19 {
+  grid-row: 14/15;
+  grid-column: 11/13;
+}
+
+.el20 {
+  grid-row: 15/16;
+  grid-column: 6/11;
+}
+
+/* ---- Yellow elements ---- */
+
+.el21 {
+  grid-area: 2/6/6/11;
+}
+
+.el22 {
+  grid-area: 3/4/6/6;
+}
+
+.el23 {
+  grid-area: 3/11/6/13;
+}
+
+.el24 {
+  grid-row: 4/6;
+  grid-column: 3/4;
+}
+
+.el25 {
+  grid-row: 4/6;
+  grid-column: 13/14;
+}
+
+.el26 {
+  grid-area: 10/4/14/13;
+}
+
+.el27 {
+  grid-row: 7/11;
+  grid-column: 2/3;
+}
+
+.el28 {
+  grid-row: 7/11;
+  grid-column: 14/15;
+}
+
+.el29 {
+  grid-row: 9/13;
+  grid-column: 3/4;
+}
+
+.el30 {
+  grid-row: 9/13;
+  grid-column: 13/14;
+}
+
+.el31 {
+  grid-row: 9/10;
+  grid-column: 7/10;
+}
+
+.el32 {
+  grid-row: 14/15;
+  grid-column: 6/11;
+}
+
+.el33 {
+  grid-row: 8/9;
+  grid-column: 8/9;
+}
+
+/* ---- Black OVERLAY ---- */
+
+.el34 {
+  grid-row: 12/13;
+  grid-column: 6/7;
+}
+
+.el35 {
+  grid-row: 12/13;
+  grid-column: 10/11;
+}
+
+.el36 {
+  grid-row: 13/14;
+  grid-column: 7/10; 
+}
+
+/* ---- White elements ---- */
+
+.el37 {
+  grid-row: 7/9;
+  grid-column: 6/7;
+}
+
+.el38 {
+  grid-row: 7/9;
+  grid-column: 12/13;
+}
+
+.el39 {
+  grid-row: 7/8;
+  grid-column: 5/6;
+}
+
+.el40 {
+  grid-row: 7/8;
+  grid-column: 11/12;
+}
+
+
+
+
+
